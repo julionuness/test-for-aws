@@ -38,7 +38,7 @@ function Menu() {
     return (
         <div style={{ background: '#272727' }}>
             <center>
-                <h1 style={{ color: 'white', margin: '0 auto' }}>Menu</h1>
+                <h1 style={{ color: 'white', margin: '0 auto' }}>Pizza's</h1>
             </center>
             <div className="d-flex justify-content-end">
                 <Button
