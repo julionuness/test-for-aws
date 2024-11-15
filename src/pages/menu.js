@@ -9,7 +9,7 @@ function Menu() {
 
     // Função para buscar os dados do backend
     useEffect(() => {
-        fetch('http://ec2-15-228-194-251.sa-east-1.compute.amazonaws.com:9000/post')
+        fetch('http://ec2-15-228-194-251.sa-east-1.compute.amazonaws.com:9000/get')
             .then((response) => {
                 if (!response.ok) {
                     throw new Error('Erro ao buscar os dados');
