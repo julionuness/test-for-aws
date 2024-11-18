@@ -1,4 +1,4 @@
-import Container from 'react-bootstrap/Container';
+import { Link } from 'react-router-dom';import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
@@ -42,6 +42,7 @@ function App() {
     <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
       <Navbar expand={false} style={{ background: "#1e1e1e" }}>
         <Container fluid>
+          <Link to="/">
           <img
             src='https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/74c5bbe5-3f63-4716-a290-efa5c0c1a370/df7ixgt-99bcab86-840a-4660-b7c0-3ab839cc2d23.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzc0YzViYmU1LTNmNjMtNDcxNi1hMjkwLWVmYTVjMGMxYTM3MFwvZGY3aXhndC05OWJjYWI4Ni04NDBhLTQ2NjAtYjdjMC0zYWI4MzljYzJkMjMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.pSBDvEaimBRupoU3WxsQeKnBoKVRQiZc1kuyT-RAhas'
             width="120"
@@ -49,6 +50,7 @@ function App() {
             className="d-inline-block align-top"
             alt="React Bootstrap logo"
           />
+          </Link>
           <Navbar.Brand href="#"></Navbar.Brand>
           
           <Navbar.Toggle
