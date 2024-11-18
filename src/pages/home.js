@@ -17,7 +17,7 @@ function Home() {
     >
       {/* Título da página */}
       <h1 style={{ fontSize: "4rem", fontFamily: "'Orbitron', sans-serif", marginBottom: "20px" }}>
-        Bem-vindo ao Planet Pizza!
+        Bem-vindo ao Pizza Planet!
       </h1>
 
       {/* Subtítulo */}
